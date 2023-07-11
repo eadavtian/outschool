@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+h1 {
+    font-size: 60px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+i {
+    font-style: normal;
+}
+
+.nav-item {
+    padding: 0 15px 0 15px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(31, 31, 31);
+}
+
+.check-courses {
+    color: black;
+}
+
+.check-courses:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.headline {
+    color: #464747;
+    text-align: center;
+}
+
+.courses-navbar {
+    color: #464747;
+    font-weight: bold;
+}
+
+.courses-navbar:hover {
+    color: #5027b5;
+}
+
+.navbar-nav .nav-link.active {
+    color: #5027b5;
+}
+
+.control a {
+    color: white;
+}
+
+.control a:hover {
+    color: black;
+    transition: 0.3s ease;
+}
+
+
+
+.price {
+    padding-top: 5px;
+}
+
+
+.welcome {
+    border-radius: 0 0 100px 0;       
+}
+
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 1px 5px rgb(209, 209, 209);
+    background-color: white;
+}
+
+.card:hover {
+    background-color: rgba(223, 223, 223, 0.384);
+    transition: 0.3s ease;
+}
+
+
+.form-control {
+    border: none;
+    box-shadow: 0px 1px 5px rgb(209, 209, 209);
+    border-radius: 10px 0 0 10px;
+}
+
+.form-button {
+    box-shadow: 0px 1px 5px rgb(209, 209, 209);
+    border-radius: 0 10px 10px 0;
+}
+
+.footer {
+    background: rgb(36, 36, 36);
+    color: white;
+}
+
+footer ul li {
+    list-style: none;
+    margin-left: -30px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn.btn-outline-primary {
+    height: 30px; /* replace <desired height> with the desired height in pixels */
+    width:auto;
+    padding:0 15px;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-line {
+    width: 100%;
+}
+
+
+.foot ul li a{
+    color: white;
+}
+
+.foot ul li a:hover {
+    color: rgb(44, 145, 212);
+}
+
+.social-media-logos img{
+    height: 10%;
+
+}
+
+
+.social-media-logos img:hover{
+    height: 15%;
+    transition: 0.3s ease;
+    box-shadow: 0px 1px 5px rgb(209, 209, 209);
+    border-radius: 100%;
+}
+
+.features-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.features-card:hover {
+    background-color: rgba(223, 223, 223, 0.384);
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
